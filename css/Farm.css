@@ -1,8 +1,9 @@
-Menu {
+.Menu {
     width:100%;
+    list-style: none;
 }
 
-Menu-item{
+.Menu-item{
 width:25%;
 display:inline-block;
 }
