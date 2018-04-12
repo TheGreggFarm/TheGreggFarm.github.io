@@ -1,8 +1,8 @@
-Navigation {
+Menu {
     width:100%;
 }
 
-Link{
+Menu-item{
 width:25%;
-
+display:inline-block;
 }
