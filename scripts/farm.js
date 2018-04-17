@@ -1,4 +1,9 @@
+animalddl.addeventlistener("change",make_carousel(Selection, "animal"))
+
+
 function make_carousel(type,location){
+    alert(type)
+    alert(location)
 var carArray = {};
     switch(type){
 case cat:
@@ -8,11 +13,11 @@ carArray = {Belle,Otis,Lucky}
 case rabbit:
 carArray = {Sawyer}
 case donkey:
-carArray = {Sam,MrsT,Biscuit}
+carArray = {Sam,Mrs_T,Biscuit}
 case pony:
 carArray = {Pony}
 case horse:
-carArray= {Harley,Sassy,Wendigo,Ajay,Andy,Red,Aria,BigDan,Sunshine}
+carArray= {Harley,Sassy,Wendigo,Ajay,Andy,Red,Aria,Big_Dan,Sunshine}
 case goat:
 carArray= {Sheldon,Zoe,Lilly,Willy}
     }
