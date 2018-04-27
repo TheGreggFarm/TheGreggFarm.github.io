@@ -2,6 +2,10 @@ function documentReady(fn) {
 document.getElementById("animalddl").addeventlistener("change",make_carousel(Selection, "animal"))
 };
 
+$(animalddl).change(function(){
+    alert("The text has been changed.");
+});
+
 function make_carousel(type,location){
     alert(type)
     alert(location)
