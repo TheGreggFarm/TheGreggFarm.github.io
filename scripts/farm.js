@@ -1,7 +1,6 @@
 
 function make_carousel(type,location){
-    alert(type)
-    alert(location)
+   
 var carArray = [];
     switch(type){
 case "Cat":
@@ -39,6 +38,9 @@ var html= ""
 html += "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\">"
 html += "    <div cklass=\"carousel-inner\">"
 html += "    <div class=\"carousel-item active\">"
+    var str1= "";
+    str1 = carArray[0];
+    alert(str1);
 html += "       <img class=\"d-block w-100\"  src=\"\images\\"+ carArray[0] +".jpg\" alt=\"First Slide\">"
 html += "       </div>"
 for (i = 1; i< type.length;i++){
