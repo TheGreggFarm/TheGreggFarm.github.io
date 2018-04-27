@@ -54,7 +54,7 @@ for (i = 1; i< type.length;i++){
         html += "   </div> "
 
 
-alert(i
+alert(i);
        $( "#animal_text" ).text( type );
 $( "#animal_carousel" ).html( html );
 
