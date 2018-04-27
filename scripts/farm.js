@@ -33,7 +33,7 @@ carArray= ['Sheldon','Zoe','Lilly','Willy'];
             break;
     }
 
-alert(carArray);
+alert(carArray.first);
 var html= ""
 html += "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\">"
 html += "    <div cklass=\"carousel-inner\">"
