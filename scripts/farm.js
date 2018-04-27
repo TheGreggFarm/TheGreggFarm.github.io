@@ -39,7 +39,7 @@ html += "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\">"
 html += "    <div cklass=\"carousel-inner\">"
 html += "    <div class=\"carousel-item active\">"
     var str1= "";
-    str1 = carArray[0];
+    str1 = carArray[0].text;
     alert(str1);
 html += "       <img class=\"d-block w-100\"  src=\"\images\\"+ carArray[0] +".jpg\" alt=\"First Slide\">"
 html += "       </div>"
