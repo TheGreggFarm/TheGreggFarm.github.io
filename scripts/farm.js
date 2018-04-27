@@ -1,5 +1,6 @@
+documentReady(function () {
 document.getElementById("animalddl").addeventlistener("change",make_carousel(Selection, "animal"))
-
+};
 
 function make_carousel(type,location){
     alert(type)
