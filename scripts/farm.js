@@ -1,4 +1,4 @@
-animalddl.addeventlistener("change",make_carousel(Selection, "animal"))
+document.getElementById("animalddl").addeventlistener("change",make_carousel(Selection, "animal"))
 
 
 function make_carousel(type,location){
