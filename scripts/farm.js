@@ -55,6 +55,7 @@ for (i = 1; i< type.length;i++){
 
 
 alert(i)
+$( "#animal_carousel" ).html( html );
 
 
 
