@@ -35,7 +35,7 @@ $( "select" )
   .change(function () {
     var str = "";
     $( "select option:selected" ).each(function() {
-        str += make_carousel(this,"animal")
+        str += make_carousel($( this ).text(),"animal")
       str += $( this ).text() + " ";
     });
     $( "#animal_text" ).text( str );
