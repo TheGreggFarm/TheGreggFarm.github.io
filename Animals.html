@@ -30,7 +30,17 @@
 </select></div>
 <div id="animal_carousel"> </div>
     <div id="animal_text"></div>
-
+ <script>
+$( "select" )
+  .change(function () {
+    var str = "";
+    $( "select option:selected" ).each(function() {
+      str += $( this ).text() + " ";
+    });
+    $( "#animal_text" ).text( str );
+  })
+  .change();
+</script> 
     </body>
 
     </html>
