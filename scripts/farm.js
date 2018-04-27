@@ -1,4 +1,4 @@
-documentReady(function () {
+documentReady(function (fn) {
 document.getElementById("animalddl").addeventlistener("change",make_carousel(Selection, "animal"))
 });
 
