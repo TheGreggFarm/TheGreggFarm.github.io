@@ -4,23 +4,30 @@ function make_carousel(type,location){
     alert(location)
 var carArray = {};
     switch(type){
-case cat:
+case Cat:
 carArray = {Pumpkin,BusyBee};
-case dog:
-carArray = {Belle,Otis,Lucky}
-case rabbit:
-carArray = {Sawyer}
-case donkey:
-carArray = {Sam,Mrs_T,Biscuit}
-case pony:
-carArray = {Pony}
-case horse:
-carArray= {Harley,Sassy,Wendigo,Ajay,Andy,Red,Aria,Big_Dan,Sunshine}
-case goat:
-carArray= {Sheldon,Zoe,Lilly,Willy}
+            break;
+case Dog:
+carArray = {Belle,Otis,Lucky};
+            break;
+case Rabbit:
+carArray = {Sawyer};
+            break;
+case Donkey:
+carArray = {Sam,Mrs_T,Biscuit};
+            break;
+case Pony:
+carArray = {Pony};
+            break;
+case Horse:
+carArray= {Harley,Sassy,Wendigo,Ajay,Andy,Red,Aria,Big_Dan,Sunshine};
+            break;
+case Goat:
+carArray= {Sheldon,Zoe,Lilly,Willy};
+            break;
     }
 
-
+alert(cararray);
 var html= ""
 html += "<div id=\"carousel\" class=\"carousel slide\" data-ride=\"carousel\">"
 html += "    <div cklass=\"carousel-inner\">"
