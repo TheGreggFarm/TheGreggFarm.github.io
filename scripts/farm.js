@@ -1,14 +1,14 @@
 $(document).ready(function() {
    
    
-   $("animalddl").change(function(){
-    alert("The text has been changed.");
-       });
+
    
 
 }); 
     
-
+   $("animalddl").change(function(){
+    alert("The text has been changed.");
+       });
 
 
 function make_carousel(type,location){
