@@ -23,7 +23,7 @@ case "Pony":
           
 carArray = ['Pony'];
             break;
-case "Horse":
+case "Horses":
           
 carArray= ['Harley','Sassy','Wendigo','Ajay','Andy','Red','Aria','BigDan','Sunshine'];
             break;
