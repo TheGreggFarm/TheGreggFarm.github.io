@@ -43,7 +43,7 @@ html += "    <div class=\"carousel-item active\">"
     alert(str1);
 html += "       <img class=\"d-block w-100\"  src=\"\images\\"+ carArray[0] +".jpg\" alt=\"First Slide\">"
 html += "       </div>"
-for (i = 1; i< type.length;i++){
+for (i = 1; i< carArray.length;i++){
     html += "      <div class=\"carousel-item\">"
     html += "       <img class=\"d-block w-100\"  src=\"\images\chair2.jpg\" alt=\"Second Slide\">"
     html += "       </div>"
