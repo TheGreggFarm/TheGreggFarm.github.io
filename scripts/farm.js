@@ -3,11 +3,11 @@ function make_carousel(type,location){
    alert(type)
 var carArray = [];
     switch(type){
-case "Cat":
+case "Cats":
            
 carArray = ['Pumpkin','BusyBee'];
             break;
-case "Dog":
+case "Dogs":
            
 carArray = ['Belle','Otis','Lucky'];
             break;
@@ -15,7 +15,7 @@ case "Rabbit":
           
 carArray = ['Sawyer'];
             break;
-case "Donkey":
+case "Donkeys":
         
 carArray = ['Sam','MrsT','Biscuit'];
             break;
@@ -27,7 +27,7 @@ case "Horses":
           
 carArray= ['Harley','Sassy','Wendigo','Ajay','Andy','Red','Aria','BigDan','Sunshine'];
             break;
-case "Goat":
+case "Goats":
           
 carArray= ['Sheldon','Zoe','Lilly','Willy'];
             break;
