@@ -1,6 +1,6 @@
 
 function make_carousel(type,location){
-   alert(type)
+   
 var carArray = [];
     switch(type){
 case "Cats":
