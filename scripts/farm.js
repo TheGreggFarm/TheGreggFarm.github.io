@@ -1,6 +1,6 @@
 
 function make_carousel(type,location){
-   
+   alert(type)
 var carArray = [];
     switch(type){
 case "Cat":
@@ -54,7 +54,6 @@ for (i = 1; i< carArray.length;i++){
         html += "   </div> "
 
 
-alert(i);
        $( "#animal_text" ).text( type );
 $( "#animal_carousel" ).html( html );
 
