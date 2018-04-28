@@ -17,7 +17,7 @@ carArray = ['Sawyer'];
             break;
 case "Donkey":
         
-carArray = ['Sam','Mrs_T','Biscuit'];
+carArray = ['Sam','MrsT','Biscuit'];
             break;
 case "Pony":
           
@@ -25,7 +25,7 @@ carArray = ['Pony'];
             break;
 case "Horse":
           
-carArray= ['Harley','Sassy','Wendigo','Ajay','Andy','Red','Aria','Big_Dan','Sunshine'];
+carArray= ['Harley','Sassy','Wendigo','Ajay','Andy','Red','Aria','BigDan','Sunshine'];
             break;
 case "Goat":
           
