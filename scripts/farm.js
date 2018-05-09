@@ -50,7 +50,14 @@ for (i = 1; i< carArray.length;i++){
         }
         html += "      </div> "
 
-
+html += "  <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\"> "
+html += "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>"
+html += "    <span class=\"sr-only\">Previous</span>"
+html += "  </a> "
+html += "  <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">"
+ html += "   <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>"
+html += "    <span class=\"sr-only\">Next</span>"
+html += "  </a>"
         html += "   </div> "
 
 
