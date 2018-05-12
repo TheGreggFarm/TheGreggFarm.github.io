@@ -15,6 +15,10 @@ case "Rabbit":
           
 carArray = ['Sawyer'];
             break;
+          case "Chickens":
+          
+carArray = ['chickens'];
+            break;
           case "Brothers":
           
 carArray = ['Brothers'];
