@@ -5,7 +5,7 @@ var carArray = [];
     switch(type){
 case "Cats":
            
-carArray = ['Pumpkin','BusyBee'];
+carArray = ['Charlie','Heidi', 'Faith'];
             break;
 case "Dogs":
            
@@ -15,6 +15,11 @@ case "Rabbit":
           
 carArray = ['Sawyer'];
             break;
+          case "Brothers":
+          
+carArray = ['Brothers'];
+            break;
+
 case "Donkeys":
         
 carArray = ['Sam','MrsT','Biscuit'];
