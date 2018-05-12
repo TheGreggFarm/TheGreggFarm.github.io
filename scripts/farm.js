@@ -41,11 +41,11 @@ html += "    <div class=\"carousel-item active\">"
    
 html += "       <img class=\"d-block w-100\"  src=\"images\\"+ carArray[0] +".jpg\" alt=\"First Slide\">"
    if (carArray.length > 1) {
-      html += "  <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\"> "
+      html += "  <a class=\"carousel-control-prev\" href=\"#carousel\" role=\"button\" data-slide=\"prev\"> "
 html += "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>"
 html += "    <span class=\"sr-only\">Previous</span>"
 html += "  </a> "
-html += "  <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">"
+html += "  <a class=\"carousel-control-next\" href=\"#carousel\" role=\"button\" data-slide=\"next\">"
  html += "   <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>"
 html += "    <span class=\"sr-only\">Next</span>"
 html += "  </a>"
@@ -60,11 +60,11 @@ for (i = 1; i< carArray.length;i++){
         }
         html += "      </div> "
 
-html += "  <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\"> "
+html += "  <a class=\"carousel-control-prev\" href=\"#carousel\" role=\"button\" data-slide=\"prev\"> "
 html += "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>"
 html += "    <span class=\"sr-only\">Previous</span>"
 html += "  </a> "
-html += "  <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">"
+html += "  <a class=\"carousel-control-next\" href=\"#carousel\" role=\"button\" data-slide=\"next\">"
  html += "   <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>"
 html += "    <span class=\"sr-only\">Next</span>"
 html += "  </a>"
