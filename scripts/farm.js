@@ -40,7 +40,7 @@ html += "    <div class=\"carousel-inner\">"
 html += "    <div class=\"carousel-item active\">"
    
 html += "       <img class=\"d-block w-100\"  src=\"images\\"+ carArray[0] +".jpg\" alt=\"First Slide\">"
-   if (carArray.length) > 1 {
+   if (carArray.length > 1) {
       html += "  <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\"> "
 html += "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>"
 html += "    <span class=\"sr-only\">Previous</span>"
