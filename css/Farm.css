@@ -14,3 +14,8 @@ display:inline-block;
 body {
     background-color: rgb(79, 221, 79)!important;
 }
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
