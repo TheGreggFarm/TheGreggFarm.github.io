@@ -1,8 +1,11 @@
 #lindseyCarousel {
- width:600px;
+ width:100%;
   justify-content:center;
 }
  .ksllHeader{
  text-align:center; 
   width:100%;
+}
+.carousel-item{
+ width:600px;
 }
