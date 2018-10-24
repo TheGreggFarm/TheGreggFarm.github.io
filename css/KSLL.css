@@ -15,7 +15,7 @@
  text-center;
 }
 
-.KSLLBody{
+.KSLLBody, .card, .collapse{
   background-color:Pink;
  
 }
