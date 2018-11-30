@@ -23,3 +23,7 @@
 .bgColor
 {background-color:Pink;}
 
+.Vertical {
+transform: rotate(90deg);
+	transform-origin: left top 0;
+}
