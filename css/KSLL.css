@@ -23,7 +23,7 @@
 .bgColor
 {background-color:Pink;}
 
-.Vertical {
+.vertical-text {
 transform: rotate(90deg);
-	transform-origin: left top 0;
+transform-origin: left top 0;
 }
